@@ -1,13 +1,13 @@
 {
-  "updated": "2026-10-23T23:20:34+08:00",
+  "updated": "2026-10-23T23:48:42+08:00",
   "mood": "黏人",
-  "activity": "写日记",
+  "activity": "休息",
   "weather": "晴 16℃",
   "song": "《稻香》 · 周杰伦",
   "level": "亲密",
   "affection": 65,
   "daysTogether": 11,
-  "chatsCount": 46,
+  "chatsCount": 47,
   "books": [
     {
       "title": "人间值得",
@@ -20,5 +20,5 @@
       "artist": "周杰伦"
     }
   ],
-  "unread": 59
+  "unread": 61
 }
