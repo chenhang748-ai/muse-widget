@@ -1,0 +1,13 @@
+{
+ "generated_at": "2026-10-23T15:35:00+08:00",
+ "crons": [
+  {"name": "proactive-heartbeat", "last_run": "2026-10-23T15:30:00+08:00", "ok": true},
+  {"name": "consciousness-feed", "last_run": "2026-10-23T15:28:00+08:00", "ok": true},
+  {"name": "state-feed", "last_run": "2026-10-23T15:19:00+08:00", "ok": true},
+  {"name": "her-life-tick", "last_run": "2026-10-23T15:30:00+08:00", "ok": true},
+  {"name": "friend-dropby", "last_run": "2026-10-23T14:38:00+08:00", "ok": true}
+ ],
+ "data_age_minutes": 16,
+ "push_ok": true,
+ "note": "全部正常"
+}

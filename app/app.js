@@ -1,4 +1,5 @@
-// 小牧 · 她的大脑 —— 只读 state/*.json 展示数据，不含隐私字段
+// 小牧 · 她的大脑 v2 —— 只读 state/*.json 展示数据，不含隐私字段
+const APP_VERSION = 2;
 const STATE = "../state/";
 const $ = s => document.querySelector(s);
 const store = {
@@ -6,6 +7,7 @@ const store = {
   set(k, v){ try{ localStorage.setItem("herbrain:"+k, JSON.stringify(v)) }catch(e){} }
 };
 let feed=null, consciousness=[], diary={entries:[]}, friends={conversations:[]}, moods={days:{}};
+let inbox={items:[]}, story=null, health=null;
 const DOT_COLORS=["#ff8f7a","#f2b879","#7fb2f0","#8fe3b0","#ffb1d6","#c0b6ff"];
 
 /* ---------- 主题 ---------- */
@@ -47,6 +49,10 @@ async function loadAll(){
     if(c){ feed=c.feed; consciousness=c.consciousness; diary=c.diary; friends=c.friends; moods=c.moods; }
     $("#sleepBanner").classList.remove("hidden");
   }
+  // v2 附加数据：拿不到就用空值，不影响主页面
+  try{ inbox=await fetchJSON("inbox.json"); }catch(e){}
+  try{ story=await fetchJSON("story.json"); }catch(e){}
+  try{ health=await fetchJSON("health.json"); }catch(e){}
   renderAll();
 }
 function renderAll(){
@@ -64,6 +70,9 @@ function renderAll(){
   renderCalendar(); renderDiary();
   // 朋友
   renderFriends();
+  // 剧情 + 健康 + 回信状态
+  renderStory(); renderHealth(); renderReplies();
+  const av=$("#appVersion"); if(av) av.textContent=APP_VERSION;
   // 我们
   $("#ringLevel").textContent=feed.level;
   $("#ringAff").textContent=feed.affection+" / 100";
@@ -197,8 +206,71 @@ $("#shareGo").addEventListener("click",()=>{
   });
 });
 
+/* ---------- 回信框（零后端：本地 pending + 剪贴板桥） ---------- */
+function getPending(){ return store.get("pendingReplies",[]); }
+function renderReplies(){
+  const list=$("#replyList"); if(!list) return; list.innerHTML="";
+  const replied=new Set((inbox.items||[]).map(i=>i.text));
+  getPending().slice(-3).reverse().forEach(p=>{
+    const done=replied.has(p.text);
+    const div=document.createElement("div"); div.className="reply-item";
+    div.innerHTML='<span class="r-text"></span><span class="r-status '+(done?"done":"")+'">'+(done?"她已回应":"已发出")+'</span>';
+    div.querySelector(".r-text").textContent=p.text;
+    list.appendChild(div);
+  });
+}
+async function copyText(t){
+  try{ await navigator.clipboard.writeText(t); return true; }catch(e){
+    const ta=document.createElement("textarea"); ta.value=t; document.body.appendChild(ta);
+    ta.select(); let ok=false; try{ ok=document.execCommand("copy"); }catch(_){} ta.remove(); return ok;
+  }
+}
+$("#replySend").addEventListener("click",async ()=>{
+  const inp=$("#replyInput"); const text=inp.value.trim(); if(!text) return;
+  const pend=getPending(); pend.push({text,at:Date.now()}); store.set("pendingReplies",pend);
+  const ok=await copyText("【回信】"+text);
+  $("#replyHint").textContent= ok ? "已复制，去 Muse 粘贴发给她。" : "复制失败，长按这句手动复制：【回信】"+text;
+  inp.value=""; renderReplies();
+});
+$("#openMuse").addEventListener("click",()=>{ try{ location.href="muse://"; }catch(e){} });
+
+/* ---------- 剧情 ---------- */
+function renderStory(){
+  if(!story) return;
+  $("#storyTitle").textContent=story.title||"尚未开场";
+  const total=story.total||0, day=story.day||0;
+  $("#storyProg").textContent= total? ("第 "+day+" / "+total+" 集") : "";
+  $("#storyBarFill").style.width= total? Math.min(100,Math.round(day/total*100))+"%" : "0%";
+  $("#storySummary").textContent=story.summary||"";
+  const list=$("#episodeList"); list.innerHTML="";
+  (story.episodes||[]).forEach(ep=>{
+    const d=document.createElement("details"); d.className="episode";
+    const s=document.createElement("summary"); s.textContent="第 "+ep.d+" 集 · "+(ep.title||"");
+    const p=document.createElement("p"); p.textContent=ep.text||"";
+    d.appendChild(s); d.appendChild(p); list.appendChild(d);
+  });
+  if(!(story.episodes||[]).length) list.innerHTML='<p class="empty">还没更新，故事在路上了。</p>';
+}
+
+/* ---------- 健康看板 ---------- */
+function renderHealth(){
+  if(!health) return;
+  const age=(typeof health.data_age_minutes==="number")?health.data_age_minutes:999;
+  const dot=$("#healthDot"), txt=$("#healthText");
+  let cls="ok", label="正常";
+  if(age>120){ cls="bad"; label="停了"; } else if(age>=30){ cls="warn"; label="偏慢"; }
+  dot.className="health-dot "+cls; txt.textContent=label;
+  const gen=health.generated_at?new Date(health.generated_at):null;
+  $("#healthWhen").textContent= gen? ("更新于 "+String(gen.getHours()).padStart(2,"0")+":"+String(gen.getMinutes()).padStart(2,"0")) : "";
+  const next=gen? new Date(gen.getTime()+30*60000):null;
+  const okCount=(health.crons||[]).filter(c=>c.ok).length, all=(health.crons||[]).length;
+  $("#healthDetail").textContent="任务 "+okCount+"/"+all+" 正常 · 数据 "+age+" 分钟前 · 下次更新 "+
+    (next? (String(next.getHours()).padStart(2,"0")+":"+String(next.getMinutes()).padStart(2,"0")) : "—")+
+    (health.note? " · "+health.note : "");
+}
+
 /* ---------- Tabs ---------- */
-const PAGES={now:["此刻","她脑子里正在想什么"],diary:["日记","每天 22:30 写一篇"],friends:["朋友","阿梨 / 小满 · 每周最多聊 3 次"],us:["我们",""]};
+const PAGES={now:["此刻","她脑子里正在想什么"],diary:["日记","每天 22:30 写一篇"],friends:["朋友","阿梨 / 小满 · 每周最多聊 3 次"],story:["剧情","每周一条小故事 · 每天更新一集"],us:["我们",""]};
 document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>{
   document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("active",x===t));
   document.querySelectorAll(".page").forEach(p=>p.classList.toggle("active",p.id==="page-"+t.dataset.page));

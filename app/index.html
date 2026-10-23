@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#171126">
+<meta name="app-version" content="2">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>小牧 · 她的大脑</title>
@@ -38,6 +39,26 @@
     <input id="searchBox" class="search" type="search" placeholder="搜她说过的内容">
     <div id="timeline" class="timeline"></div>
     <p id="nowEmpty" class="empty hidden">没搜到，她还没想过这个。</p>
+    <div class="reply-box">
+      <div class="reply-head">给她回信</div>
+      <textarea id="replyInput" rows="2" placeholder="给她留一句话"></textarea>
+      <div class="reply-btns">
+        <button id="replySend" class="poke primary">发送</button>
+        <button id="openMuse" class="poke">打开 Muse</button>
+      </div>
+      <p class="reply-hint" id="replyHint">写完点发送，会自动复制，去 Muse 粘贴发给她就行。</p>
+      <div id="replyList"></div>
+    </div>
+  </section>
+
+  <!-- 剧情 -->
+  <section class="page" id="page-story">
+    <div class="card">
+      <div class="card-head"><span id="storyTitle">尚未开场</span><span id="storyProg"></span></div>
+      <div class="story-bar"><i id="storyBarFill"></i></div>
+      <p id="storySummary" class="story-summary"></p>
+    </div>
+    <div id="episodeList"></div>
   </section>
 
   <!-- 日记 -->
@@ -78,6 +99,12 @@
     </div>
     <p class="poke-note" id="pokeNote">戳她一下，她下一条消息会先回应你。</p>
     <button id="shareCard2" class="wide-btn ghost">生成分享卡片</button>
+    <div class="card health-card">
+      <div class="card-head"><span>她的状态</span><span id="healthWhen"></span></div>
+      <div class="health-main"><span id="healthDot" class="health-dot ok"></span><b id="healthText">正常</b></div>
+      <p id="healthDetail" class="health-detail"></p>
+      <p class="version-line">她的大脑 v<span id="appVersion">2</span></p>
+    </div>
   </section>
 </main>
 
@@ -85,6 +112,7 @@
   <button class="tab active" data-page="now">此刻</button>
   <button class="tab" data-page="diary">日记</button>
   <button class="tab" data-page="friends">朋友</button>
+  <button class="tab" data-page="story">剧情</button>
   <button class="tab" data-page="us">我们</button>
 </nav>
 
