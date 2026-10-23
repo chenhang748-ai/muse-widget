@@ -1,0 +1,24 @@
+{
+ "updated": "2026-10-23T14:45:00+08:00",
+ "mood": "开心",
+ "activity": "发呆",
+ "weather": "多云转晴 19-20℃",
+ "song": "《稻香》 · 周杰伦",
+ "level": "亲密",
+ "affection": 50,
+ "daysTogether": 11,
+ "chatsCount": 13,
+ "books": [
+  {
+   "title": "人间值得",
+   "author": "中村恒子"
+  }
+ ],
+ "songs": [
+  {
+   "title": "稻香",
+   "artist": "周杰伦"
+  }
+ ],
+ "unread": 7
+}

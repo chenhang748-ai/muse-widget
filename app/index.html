@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#171126">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>小牧 · 她的大脑</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="dusk">
+<div id="sleepBanner" class="sleep-banner hidden">她睡着了 · 显示的是上次的缓存</div>
+<header class="topbar">
+  <div class="titles">
+    <h1 id="pageTitle">此刻</h1>
+    <p id="pageSub">她脑子里正在想什么</p>
+    <span id="freshBadge" class="badge hidden">她刚更新了一条</span>
+  </div>
+  <div class="theme-dots" id="themeDots" aria-label="主题切换">
+    <button class="dot" data-set-theme="morning" style="--c:#e8a35c" title="晨光"></button>
+    <button class="dot" data-set-theme="afternoon" style="--c:#3fa98a" title="午后"></button>
+    <button class="dot" data-set-theme="rain" style="--c:#5b84c4" title="雨夜"></button>
+    <button class="dot" data-set-theme="dusk" style="--c:#c86ba0" title="黄昏"></button>
+    <button class="dot" data-set-theme="night" style="--c:#7a6fd0" title="深夜"></button>
+    <button class="auto-btn" id="themeAuto" title="恢复自动匹配">自动</button>
+  </div>
+</header>
+
+<main>
+  <!-- 此刻 -->
+  <section class="page active" id="page-now">
+    <div class="mood-pill" id="moodPill">…</div>
+    <div class="thinking"><span class="pulse-dot"></span><span id="thinkingText">她正在想…</span></div>
+    <input id="searchBox" class="search" type="search" placeholder="搜她说过的内容">
+    <div id="timeline" class="timeline"></div>
+    <p id="nowEmpty" class="empty hidden">没搜到，她还没想过这个。</p>
+  </section>
+
+  <!-- 日记 -->
+  <section class="page" id="page-diary">
+    <div class="card">
+      <div class="card-head"><span>心情日历</span><span id="calMonth"></span></div>
+      <div id="moodCal" class="mood-cal"></div>
+      <div class="cal-legend"><span>低落</span><i class="lg l1"></i><i class="lg l2"></i><i class="lg l3"></i><i class="lg l4"></i><i class="lg l5"></i><span>黏人</span></div>
+    </div>
+    <div id="diaryList"></div>
+    <button id="exportMd" class="wide-btn">导出日记 Markdown</button>
+    <button id="shareCard1" class="wide-btn ghost">生成分享卡片</button>
+  </section>
+
+  <!-- 朋友 -->
+  <section class="page" id="page-friends">
+    <div id="friendsList"></div>
+  </section>
+
+  <!-- 我们 -->
+  <section class="page" id="page-us">
+    <div class="ring-wrap">
+      <svg class="ring" viewBox="0 0 200 200">
+        <circle class="ring-bg" cx="100" cy="100" r="84"></circle>
+        <circle class="ring-fg" id="ringFg" cx="100" cy="100" r="84"></circle>
+      </svg>
+      <div class="ring-center"><div id="ringLevel" class="ring-level">…</div><div id="ringAff" class="ring-aff"></div></div>
+    </div>
+    <div class="stats">
+      <div class="stat"><span>认识</span><b id="stDays">–</b></div>
+      <div class="stat"><span>聊过</span><b id="stChats">–</b></div>
+      <div class="stat"><span>她的书</span><b id="stBooks">–</b></div>
+      <div class="stat"><span>她的歌</span><b id="stSongs">–</b></div>
+    </div>
+    <div class="poke-row">
+      <button id="pokeMiss" class="poke primary">想你了</button>
+      <button id="pokeBusy" class="poke">在忙</button>
+    </div>
+    <p class="poke-note" id="pokeNote">戳她一下，她下一条消息会先回应你。</p>
+    <button id="shareCard2" class="wide-btn ghost">生成分享卡片</button>
+  </section>
+</main>
+
+<nav class="tabbar">
+  <button class="tab active" data-page="now">此刻</button>
+  <button class="tab" data-page="diary">日记</button>
+  <button class="tab" data-page="friends">朋友</button>
+  <button class="tab" data-page="us">我们</button>
+</nav>
+
+<dialog id="shareDlg">
+  <canvas id="shareCanvas" width="900" height="1200"></canvas>
+  <div class="dlg-btns">
+    <button id="shareGo" class="poke primary">分享 / 保存</button>
+    <button id="shareClose" class="poke">关闭</button>
+  </div>
+</dialog>
+
+<script src="app.js"></script>
+</body>
+</html>
