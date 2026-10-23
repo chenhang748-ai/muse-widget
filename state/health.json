@@ -1,15 +1,45 @@
 {
-  "generated_at": "2026-10-24T02:07:13+08:00",
+  "generated_at": "2026-10-24T02:37:54+08:00",
   "crons": [
-    {"name": "proactive-heartbeat", "last_run": "2026-10-24 02:00:39 CST", "ok": true},
-    {"name": "consciousness-feed", "last_run": "2026-10-24 01:58:34 CST", "ok": true},
-    {"name": "state-feed", "last_run": "2026-10-24 01:48:42 CST", "ok": true},
-    {"name": "her-life-tick", "last_run": "2026-10-24 02:00:36 CST", "ok": true},
-    {"name": "her-dream", "last_run": null, "ok": true},
-    {"name": "friend-dropby", "last_run": "2026-10-24 01:38:07 CST", "ok": true},
-    {"name": "health-report", "last_run": "2026-10-24 02:06:33 CST", "ok": true}
+    {
+      "name": "proactive-heartbeat",
+      "last_run": "2026-10-24 02:30:39",
+      "ok": true
+    },
+    {
+      "name": "consciousness-feed",
+      "last_run": "2026-10-24 02:28:34",
+      "ok": true
+    },
+    {
+      "name": "state-feed",
+      "last_run": "2026-10-24 02:18:42",
+      "ok": true
+    },
+    {
+      "name": "her-life-tick",
+      "last_run": "2026-10-24 02:30:36",
+      "ok": true
+    },
+    {
+      "name": "her-dream",
+      "last_run": null,
+      "ok": true,
+      "note": "07:00 首跑，尚未运行，预期中"
+    },
+    {
+      "name": "friend-dropby",
+      "last_run": "2026-10-24 01:38:07",
+      "ok": true
+    },
+    {
+      "name": "health-report",
+      "last_run": "2026-10-24 02:06:33",
+      "ok": true
+    }
   ],
-  "data_age_minutes": 18,
+  "data_age_minutes": 19,
   "push_ok": true,
-  "note": "全部正常"
+  "note": "全部正常",
+  "coverage_note": "heartbeat-state.json 不存在，push_ok 依据 COMPANION_LOG（近期全 native、无 Bark 连败标记）推断"
 }
