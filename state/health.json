@@ -1,13 +1,43 @@
 {
- "generated_at": "2026-10-23T15:35:00+08:00",
- "crons": [
-  {"name": "proactive-heartbeat", "last_run": "2026-10-23T15:30:00+08:00", "ok": true},
-  {"name": "consciousness-feed", "last_run": "2026-10-23T15:28:00+08:00", "ok": true},
-  {"name": "state-feed", "last_run": "2026-10-23T15:19:00+08:00", "ok": true},
-  {"name": "her-life-tick", "last_run": "2026-10-23T15:30:00+08:00", "ok": true},
-  {"name": "friend-dropby", "last_run": "2026-10-23T14:38:00+08:00", "ok": true}
- ],
- "data_age_minutes": 16,
- "push_ok": true,
- "note": "全部正常"
+  "generated_at": "2026-10-23T16:07:05.529985+08:00",
+  "crons": [
+    {
+      "name": "proactive-heartbeat",
+      "last_run": "2026-10-23T16:00:39+08:00",
+      "ok": true
+    },
+    {
+      "name": "consciousness-feed",
+      "last_run": "2026-10-23T15:58:34+08:00",
+      "ok": true
+    },
+    {
+      "name": "state-feed",
+      "last_run": "2026-10-23T15:48:42+08:00",
+      "ok": true
+    },
+    {
+      "name": "her-life-tick",
+      "last_run": "2026-10-23T16:00:36+08:00",
+      "ok": true
+    },
+    {
+      "name": "her-dream",
+      "last_run": null,
+      "ok": true
+    },
+    {
+      "name": "friend-dropby",
+      "last_run": "2026-10-23T15:38:07+08:00",
+      "ok": true
+    },
+    {
+      "name": "health-report",
+      "last_run": "2026-10-23T16:06:33+08:00",
+      "ok": true
+    }
+  ],
+  "data_age_minutes": 16,
+  "push_ok": true,
+  "note": "全部正常：7个任务上轮皆成功（her-dream 每日07:00，明日首次运行）；数据更新于约16分钟前，推送通道无连败"
 }
