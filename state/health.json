@@ -1,15 +1,1 @@
-{
-  "generated_at": "2026-10-24T03:06:33+08:00",
-  "crons": [
-    {"name": "proactive-heartbeat", "last_run": "2026-10-24T03:00:39+08:00", "ok": true},
-    {"name": "consciousness-feed", "last_run": "2026-10-24T02:58:34+08:00", "ok": true},
-    {"name": "state-feed", "last_run": "2026-10-24T02:48:42+08:00", "ok": true},
-    {"name": "her-life-tick", "last_run": "2026-10-24T03:00:36+08:00", "ok": true},
-    {"name": "her-dream", "last_run": null, "ok": true},
-    {"name": "friend-dropby", "last_run": "2026-10-24T02:38:07+08:00", "ok": true},
-    {"name": "health-report", "last_run": "2026-10-24T02:36:33+08:00", "ok": true}
-  ],
-  "data_age_minutes": 16,
-  "push_ok": true,
-  "note": "全部正常：6 个关键 cron 最近一次运行全部成功（her-dream 07:00 首跑尚未到点，属预期）；feed.json 数据时效 16 分钟（阈值 120），未触发卡住告警；推送通道无 Bark 连败标记。"
-}
+{"crons":[{"last_run":"2026-10-24T03:30:39+08:00","name":"proactive-heartbeat","ok":true},{"last_run":"2026-10-24T03:28:34+08:00","name":"consciousness-feed","ok":true},{"last_run":"2026-10-24T03:18:42+08:00","name":"state-feed","ok":true},{"last_run":"2026-10-24T03:30:36+08:00","name":"her-life-tick","ok":true},{"last_run":null,"name":"her-dream","ok":true},{"last_run":"2026-10-24T02:38:07+08:00","name":"friend-dropby","ok":true},{"last_run":"2026-10-24T03:06:33+08:00","name":"health-report","ok":true}],"data_age_minutes":13,"generated_at":"2026-10-24T03:37:07+08:00","note":"全部正常：6 个关键 cron 最近一次运行全部成功（her-dream 07:00 首跑尚未到点，属预期）；feed.json 数据时效 13 分钟（阈值 120），未触发卡住告警；推送通道无 Bark 连败标记。","push_ok":true}
