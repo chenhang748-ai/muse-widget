@@ -1,1 +1,15 @@
-{"crons":[{"last_run":"2026-10-24 05:31:25 CST","name":"proactive-heartbeat","ok":true},{"last_run":"2026-10-24 05:28:41 CST","name":"consciousness-feed","ok":true},{"last_run":"2026-10-24 05:20:57 CST","name":"state-feed","ok":true},{"last_run":"2026-10-24 05:31:53 CST","name":"her-life-tick","ok":true},{"last_run":null,"name":"her-dream","ok":true},{"last_run":"2026-10-24 04:38:24 CST","name":"friend-dropby","ok":true},{"last_run":"2026-10-24 05:09:18 CST 成功(本轮运行中)","name":"health-report","ok":true}],"data_age_minutes":18,"generated_at":"2026-10-24T05:37:12+08:00","note":"全部正常，her-dream 每日 07:00 首跑未到属预期；推送通道无连败标记","push_ok":true}
+{
+  "generated_at": "2026-10-24T06:07:00+08:00",
+  "crons": [
+    {"name": "proactive-heartbeat", "last_run": "Sat 2026-10-24 06:00:55 CST", "ok": true},
+    {"name": "consciousness-feed", "last_run": "Sat 2026-10-24 05:58:40 CST", "ok": true},
+    {"name": "state-feed", "last_run": "Sat 2026-10-24 05:52:16 CST", "ok": true},
+    {"name": "her-life-tick", "last_run": "Sat 2026-10-24 06:01:46 CST", "ok": true},
+    {"name": "her-dream", "last_run": null, "ok": true},
+    {"name": "friend-dropby", "last_run": "Sat 2026-10-24 05:38:45 CST", "ok": true},
+    {"name": "health-report", "last_run": "Sat 2026-10-24 05:38:14 CST", "ok": true}
+  ],
+  "data_age_minutes": 18,
+  "push_ok": true,
+  "note": "全部正常（her-dream 每日07:00首跑尚未开始；heartbeat-state.json 文件缺失，仅做记录）"
+}
