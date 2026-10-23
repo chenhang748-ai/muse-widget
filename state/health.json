@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-23T18:07:18.185678+08:00",
+  "generated_at": "2026-10-23T18:37:13+08:00",
   "crons": [
     {
       "name": "proactive-heartbeat",
-      "last_run": "2026-10-23T18:00:39+08:00",
+      "last_run": "2026-10-23T18:30:39+08:00",
       "ok": true
     },
     {
       "name": "consciousness-feed",
-      "last_run": "2026-10-23T17:58:34+08:00",
+      "last_run": "2026-10-23T18:28:34+08:00",
       "ok": true
     },
     {
       "name": "state-feed",
-      "last_run": "2026-10-23T17:48:42+08:00",
+      "last_run": "2026-10-23T18:18:42+08:00",
       "ok": true
     },
     {
       "name": "her-life-tick",
-      "last_run": "2026-10-23T18:00:36+08:00",
+      "last_run": "2026-10-23T18:30:36+08:00",
       "ok": true
     },
     {
@@ -34,11 +34,11 @@
     },
     {
       "name": "health-report",
-      "last_run": "2026-10-23T17:36:33+08:00",
+      "last_run": "2026-10-23T18:06:33+08:00",
       "ok": true
     }
   ],
-  "data_age_minutes": 18,
+  "data_age_minutes": 17,
   "push_ok": true,
-  "note": "全部正常，独白数据很新鲜"
+  "note": "全部正常，管线都在按点跑"
 }
