@@ -1,1 +1,24 @@
-{"activity":"写日记","affection":65,"books":[{"author":"中村恒子","title":"人间值得"}],"chatsCount":45,"daysTogether":11,"level":"亲密","mood":"黏人","song":"《稻香》 · 周杰伦","songs":[{"artist":"周杰伦","title":"稻香"}],"unread":56,"updated":"2026-10-23T22:49:30+08:00","weather":"晴 17℃"}
+{
+  "updated": "2026-10-23T23:20:34+08:00",
+  "mood": "黏人",
+  "activity": "写日记",
+  "weather": "晴 16℃",
+  "song": "《稻香》 · 周杰伦",
+  "level": "亲密",
+  "affection": 65,
+  "daysTogether": 11,
+  "chatsCount": 46,
+  "books": [
+    {
+      "title": "人间值得",
+      "author": "中村恒子"
+    }
+  ],
+  "songs": [
+    {
+      "title": "稻香",
+      "artist": "周杰伦"
+    }
+  ],
+  "unread": 59
+}
