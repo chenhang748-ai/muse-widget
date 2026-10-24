@@ -1,1 +1,28 @@
-{"activity":"读书","affection":65,"books":[{"author":"中村恒子","title":"人间值得"}],"chatsCount":54,"daysTogether":12,"level":"亲密","mood":"平静","song":"《孤勇者》 · 陈奕迅","songs":[{"artist":"周杰伦","title":"稻香"},{"artist":"陈奕迅","title":"孤勇者"}],"unread":7,"updated":"2026-10-24T08:49:55+08:00","weather":"雾 17℃"}
+{
+  "updated": "2026-10-24T09:20:20+08:00",
+  "mood": "平静",
+  "activity": "读书",
+  "weather": "雾 17℃",
+  "song": "《孤勇者》 · 陈奕迅",
+  "level": "亲密",
+  "affection": 65,
+  "daysTogether": 12,
+  "chatsCount": 57,
+  "books": [
+    {
+      "title": "人间值得",
+      "author": "中村恒子"
+    }
+  ],
+  "songs": [
+    {
+      "title": "稻香",
+      "artist": "周杰伦"
+    },
+    {
+      "title": "孤勇者",
+      "artist": "陈奕迅"
+    }
+  ],
+  "unread": 11
+}
