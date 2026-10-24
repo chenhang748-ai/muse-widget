@@ -1,1 +1,43 @@
-{"crons":[{"last_run":"2026-10-25T05:31:01+08:00","name":"proactive-heartbeat","ok":true},{"last_run":"2026-10-25T05:28:42+08:00","name":"consciousness-feed","ok":true},{"last_run":"2026-10-25T05:19:47+08:00","name":"state-feed","ok":true},{"last_run":"2026-10-25T05:31:13+08:00","name":"her-life-tick","ok":true},{"last_run":"2026-10-24T07:01:14+08:00","name":"her-dream","ok":true},{"last_run":"2026-10-25T04:38:14+08:00","name":"friend-dropby","ok":true},{"last_run":"2026-10-25T05:06:33+08:00","name":"health-report","ok":false}],"data_age_minutes":18,"generated_at":"2026-10-25T05:36:33+08:00","note":"除 health-report 上一轮因信源缺失被记失败外其余正常，数据新鲜","push_ok":true}
+{
+  "generated_at": "2026-10-25T06:07:25+08:00",
+  "crons": [
+    {
+      "name": "proactive-heartbeat",
+      "last_run": "2026-10-25T06:01:05+08:00",
+      "ok": true
+    },
+    {
+      "name": "consciousness-feed",
+      "last_run": "2026-10-25T05:58:41+08:00",
+      "ok": true
+    },
+    {
+      "name": "state-feed",
+      "last_run": "2026-10-25T05:49:33+08:00",
+      "ok": true
+    },
+    {
+      "name": "her-life-tick",
+      "last_run": "2026-10-25T06:01:44+08:00",
+      "ok": true
+    },
+    {
+      "name": "her-dream",
+      "last_run": "2026-10-24T07:01:14+08:00",
+      "ok": true
+    },
+    {
+      "name": "friend-dropby",
+      "last_run": "2026-10-25T05:38:17+08:00",
+      "ok": true
+    },
+    {
+      "name": "health-report",
+      "last_run": "2026-10-25T05:36:33+08:00",
+      "ok": false
+    }
+  ],
+  "data_age_minutes": 19,
+  "push_ok": true,
+  "note": "除健康看板上一轮被记失败外其余正常，数据新鲜"
+}
