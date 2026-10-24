@@ -1,5 +1,5 @@
-// 小牧 · 她的大脑 v2 —— 只读 state/*.json 展示数据，不含隐私字段
-const APP_VERSION = 2;
+// 小牧 · 她的大脑 v3 —— 只读 state/*.json 展示数据，不含隐私字段
+const APP_VERSION = 3;
 const STATE = "../state/";
 const $ = s => document.querySelector(s);
 const store = {

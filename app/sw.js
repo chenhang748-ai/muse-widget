@@ -1,6 +1,6 @@
 // 她的大脑 SW：外壳缓存优先（断网能看），state 网络优先、失败回缓存（页面显示「她睡着了」）
-const CACHE = "her-brain-v2";
-const SHELL = ["./", "./index.html", "./styles.css", "./app.js", "./manifest.webmanifest",
+const CACHE = "her-brain-v3";
+const SHELL = ["./", "./index.html", "./styles.css", "./app.js", "./sensory.js", "./manifest.webmanifest",
   "./icons/icon-192.png", "./icons/icon-512.png", "./icons/apple-touch-icon.png"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
