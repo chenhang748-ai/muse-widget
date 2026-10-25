@@ -8,10 +8,10 @@
     }
   ],
   "chatsCount": 206,
-  "daysTogether": 13,
+  "daysTogether": 14,
   "level": "亲密",
   "mood": "开心",
-  "song": "《夜曲》 · 周杰伦",
+  "song": "《晴天》 · 周杰伦",
   "songs": [
     {
       "artist": "周杰伦",
@@ -24,9 +24,13 @@
     {
       "artist": "周杰伦",
       "title": "夜曲"
+    },
+    {
+      "artist": "周杰伦",
+      "title": "晴天"
     }
   ],
-  "unread": 98,
-  "updated": "2026-10-25T23:49:35+08:00",
+  "unread": 0,
+  "updated": "2026-10-26T00:18:42+08:00",
   "weather": "晴 19℃"
 }
