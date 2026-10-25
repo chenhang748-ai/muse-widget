@@ -1,5 +1,5 @@
 {
-  "activity": "写日记",
+  "activity": "休息",
   "affection": 62,
   "books": [
     {
@@ -26,7 +26,7 @@
       "title": "夜曲"
     }
   ],
-  "unread": 97,
-  "updated": "2026-10-25T23:19:18+08:00",
+  "unread": 98,
+  "updated": "2026-10-25T23:49:35+08:00",
   "weather": "晴 19℃"
 }
