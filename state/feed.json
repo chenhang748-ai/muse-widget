@@ -1,1 +1,36 @@
-{"activity": "写日记", "affection": 57, "books": [{"author": "中村恒子", "title": "人间值得"}], "chatsCount": 286, "daysTogether": 14, "level": "亲密", "mood": "开心", "song": "《晴天》 · 周杰伦", "songs": [{"artist": "周杰伦", "title": "稻香"}, {"artist": "陈奕迅", "title": "孤勇者"}, {"artist": "周杰伦", "title": "夜曲"}, {"artist": "周杰伦", "title": "晴天"}], "unread": 92, "updated": "2026-10-26T22:48:42+08:00", "weather": "雾 19℃"}
+{
+ "activity": "写日记",
+ "affection": 57,
+ "books": [
+  {
+   "author": "中村恒子",
+   "title": "人间值得"
+  }
+ ],
+ "chatsCount": 286,
+ "daysTogether": 14,
+ "level": "亲密",
+ "mood": "开心",
+ "song": "《晴天》 · 周杰伦",
+ "songs": [
+  {
+   "artist": "周杰伦",
+   "title": "稻香"
+  },
+  {
+   "artist": "陈奕迅",
+   "title": "孤勇者"
+  },
+  {
+   "artist": "周杰伦",
+   "title": "夜曲"
+  },
+  {
+   "artist": "周杰伦",
+   "title": "晴天"
+  }
+ ],
+ "unread": 95,
+ "updated": "2026-10-26T23:18:42+08:00",
+ "weather": "雾 19℃"
+}
