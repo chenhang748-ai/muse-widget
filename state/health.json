@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-26T21:44:12+08:00",
+  "generated_at": "2026-10-26T22:09:36+08:00",
   "crons": [
     {
       "name": "proactive-heartbeat",
-      "last_run": "2026-10-26 21:31:10",
+      "last_run": "2026-10-26 22:01:24",
       "ok": true
     },
     {
       "name": "consciousness-feed",
-      "last_run": "2026-10-26 21:29:34",
+      "last_run": "2026-10-26 21:59:33",
       "ok": true
     },
     {
       "name": "state-feed",
-      "last_run": "2026-10-26 21:21:31",
-      "ok": false
+      "last_run": "2026-10-26 21:50:36",
+      "ok": true
     },
     {
       "name": "her-life-tick",
-      "last_run": "2026-10-26 21:31:35",
+      "last_run": "2026-10-26 22:02:30",
       "ok": true
     },
     {
@@ -33,11 +33,11 @@
     },
     {
       "name": "health-report",
-      "last_run": "2026-10-26 21:07:20",
+      "last_run": "2026-10-26 21:44:36",
       "ok": true
     }
   ],
-  "data_age_minutes": 23,
+  "data_age_minutes": 19,
   "push_ok": true,
-  "note": "state-feed 最近一次被记失败，但 feed 已在 21:20 更新，数据未卡住"
+  "note": "全部正常"
 }
