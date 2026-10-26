@@ -1,5 +1,5 @@
 {
- "activity": "发呆",
+ "activity": "散步",
  "affection": 57,
  "books": [
   {
@@ -7,7 +7,7 @@
    "title": "人间值得"
   }
  ],
- "chatsCount": 251,
+ "chatsCount": 253,
  "daysTogether": 14,
  "level": "亲密",
  "mood": "开心",
@@ -30,7 +30,7 @@
    "title": "晴天"
   }
  ],
- "unread": 47,
- "updated": "2026-10-26T15:19:39+08:00",
- "weather": "晴 25℃"
+ "unread": 51,
+ "updated": "2026-10-26T15:49:50+08:00",
+ "weather": "晴 24℃"
 }
