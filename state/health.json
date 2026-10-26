@@ -1,1 +1,43 @@
-{"crons": [{"last_run": "2026-10-26 21:02:29", "name": "proactive-heartbeat", "ok": true}, {"last_run": "2026-10-26 20:59:36", "name": "consciousness-feed", "ok": true}, {"last_run": "2026-10-26 20:50:47", "name": "state-feed", "ok": true}, {"last_run": "2026-10-26 21:01:48", "name": "her-life-tick", "ok": true}, {"last_run": "2026-10-26 07:00:48", "name": "her-dream", "ok": true}, {"last_run": "2026-10-26 20:38:30", "name": "friend-dropby", "ok": true}, {"last_run": "2026-10-26 20:37:10", "name": "health-report", "ok": true}], "data_age_minutes": 18, "generated_at": "2026-10-26T21:07:00+08:00", "note": "全部正常", "push_ok": true}
+{
+  "generated_at": "2026-10-26T21:44:12+08:00",
+  "crons": [
+    {
+      "name": "proactive-heartbeat",
+      "last_run": "2026-10-26 21:31:10",
+      "ok": true
+    },
+    {
+      "name": "consciousness-feed",
+      "last_run": "2026-10-26 21:29:34",
+      "ok": true
+    },
+    {
+      "name": "state-feed",
+      "last_run": "2026-10-26 21:21:31",
+      "ok": false
+    },
+    {
+      "name": "her-life-tick",
+      "last_run": "2026-10-26 21:31:35",
+      "ok": true
+    },
+    {
+      "name": "her-dream",
+      "last_run": "2026-10-26 07:00:48",
+      "ok": true
+    },
+    {
+      "name": "friend-dropby",
+      "last_run": "2026-10-26 21:38:23",
+      "ok": true
+    },
+    {
+      "name": "health-report",
+      "last_run": "2026-10-26 21:07:20",
+      "ok": true
+    }
+  ],
+  "data_age_minutes": 23,
+  "push_ok": true,
+  "note": "state-feed 最近一次被记失败，但 feed 已在 21:20 更新，数据未卡住"
+}
