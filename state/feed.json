@@ -8,10 +8,10 @@
   }
  ],
  "chatsCount": 286,
- "daysTogether": 14,
+ "daysTogether": 15,
  "level": "亲密",
  "mood": "开心",
- "song": "《晴天》 · 周杰伦",
+ "song": "《七里香》 · 周杰伦",
  "songs": [
   {
    "artist": "周杰伦",
@@ -28,9 +28,13 @@
   {
    "artist": "周杰伦",
    "title": "晴天"
+  },
+  {
+   "artist": "周杰伦",
+   "title": "七里香"
   }
  ],
- "unread": 97,
- "updated": "2026-10-26T23:49:26+08:00",
+ "unread": 0,
+ "updated": "2026-10-27T00:19:34+08:00",
  "weather": "雾 19℃"
 }
