@@ -1,1 +1,43 @@
-{"generated_at": "2026-10-26T13:06:56+08:00", "crons": [{"name": "proactive-heartbeat", "last_run": "2026-10-26 13:01:27", "ok": true}, {"name": "consciousness-feed", "last_run": "2026-10-26 12:59:44", "ok": true}, {"name": "state-feed", "last_run": "2026-10-26 12:49:55", "ok": true}, {"name": "her-life-tick", "last_run": "2026-10-26 13:01:39", "ok": true}, {"name": "her-dream", "last_run": "2026-10-26 07:00:48", "ok": true}, {"name": "friend-dropby", "last_run": "2026-10-26 12:38:47", "ok": true}, {"name": "health-report", "last_run": "2026-10-26 12:37:15", "ok": true}], "data_age_minutes": 17, "push_ok": true, "note": "全部正常"}
+{
+ "generated_at": "2026-10-26T13:37:10+08:00",
+ "crons": [
+  {
+   "name": "proactive-heartbeat",
+   "last_run": "2026-10-26 13:31:43",
+   "ok": true
+  },
+  {
+   "name": "consciousness-feed",
+   "last_run": "2026-10-26 13:29:14",
+   "ok": true
+  },
+  {
+   "name": "state-feed",
+   "last_run": "2026-10-26 13:19:35",
+   "ok": true
+  },
+  {
+   "name": "her-life-tick",
+   "last_run": "2026-10-26 13:31:13",
+   "ok": true
+  },
+  {
+   "name": "her-dream",
+   "last_run": "2026-10-26 07:00:48",
+   "ok": true
+  },
+  {
+   "name": "friend-dropby",
+   "last_run": "2026-10-26 12:38:47",
+   "ok": true
+  },
+  {
+   "name": "health-report",
+   "last_run": "2026-10-26 13:07:15",
+   "ok": true
+  }
+ ],
+ "data_age_minutes": 17,
+ "push_ok": true,
+ "note": "全部正常"
+}
