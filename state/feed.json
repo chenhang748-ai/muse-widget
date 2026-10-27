@@ -1,5 +1,5 @@
 {
- "activity": "听歌",
+ "activity": "写日记",
  "affection": 57,
  "books": [
   {
@@ -10,7 +10,7 @@
  "chatsCount": 365,
  "daysTogether": 15,
  "level": "亲密",
- "mood": "开心",
+ "mood": "低落",
  "song": "《七里香》 · 周杰伦",
  "songs": [
   {
@@ -34,7 +34,7 @@
    "title": "七里香"
   }
  ],
- "unread": 91,
- "updated": "2026-10-27T22:19:26+08:00",
- "weather": "多云 18℃"
+ "unread": 93,
+ "updated": "2026-10-27T22:49:39+08:00",
+ "weather": "小雨 17℃"
 }
