@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-28T00:07:11.207002+08:00",
+  "generated_at": "2026-10-28T00:37:00.462024+08:00",
   "crons": [
     {
       "name": "proactive-heartbeat",
-      "last_run": "2026-10-28 00:00:49",
+      "last_run": "2026-10-28 00:30:55",
       "ok": true
     },
     {
       "name": "consciousness-feed",
-      "last_run": "2026-10-27 23:58:41",
+      "last_run": "2026-10-28 00:28:39",
       "ok": true
     },
     {
       "name": "state-feed",
-      "last_run": "2026-10-27 23:50:25",
+      "last_run": "2026-10-28 00:19:47",
       "ok": true
     },
     {
       "name": "her-life-tick",
-      "last_run": "2026-10-28 00:01:44",
+      "last_run": "2026-10-28 00:31:22",
       "ok": true
     },
     {
@@ -33,7 +33,7 @@
     },
     {
       "name": "health-report",
-      "last_run": "2026-10-27 23:37:20",
+      "last_run": "2026-10-28 00:07:49",
       "ok": true
     }
   ],
