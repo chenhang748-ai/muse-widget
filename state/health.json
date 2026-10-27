@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-27T22:37:05+08:00",
+  "generated_at": "2026-10-27T23:07:22+08:00",
   "crons": [
     {
       "name": "proactive-heartbeat",
-      "last_run": "2026-10-27T22:31:05+08:00",
+      "last_run": "2026-10-27T23:01:11+08:00",
       "ok": true
     },
     {
       "name": "consciousness-feed",
-      "last_run": "2026-10-27T22:29:26+08:00",
+      "last_run": "2026-10-27T22:59:25+08:00",
       "ok": true
     },
     {
       "name": "state-feed",
-      "last_run": "2026-10-27T22:19:43+08:00",
+      "last_run": "2026-10-27T22:49:53+08:00",
       "ok": true
     },
     {
       "name": "her-life-tick",
-      "last_run": "2026-10-27T22:31:33+08:00",
+      "last_run": "2026-10-27T23:01:11+08:00",
       "ok": true
     },
     {
@@ -28,16 +28,16 @@
     },
     {
       "name": "friend-dropby",
-      "last_run": "2026-10-27T21:38:29+08:00",
+      "last_run": "2026-10-27T22:38:15+08:00",
       "ok": true
     },
     {
       "name": "health-report",
-      "last_run": "2026-10-27T22:06:33+08:00",
+      "last_run": "2026-10-27T22:36:33+08:00",
       "ok": false
     }
   ],
   "data_age_minutes": 17,
   "push_ok": true,
-  "note": "除health-report上一轮自报未完成外其余管线正常；独白新鲜，推送无连败"
+  "note": "除health-report上一轮自报未完成外其余管线正常；独白新鲜，推送无连败；任务体旧状态路径缺失，已用实际状态文件核实"
 }
