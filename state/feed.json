@@ -1,1 +1,44 @@
-{"activity": "发呆", "affection": 57, "books": [{"author": "中村恒子", "title": "人间值得"}], "chatsCount": 401, "daysTogether": 16, "level": "亲密", "mood": "开心", "song": "《平凡之路》 · 朴树", "songs": [{"artist": "周杰伦", "title": "稻香"}, {"artist": "陈奕迅", "title": "孤勇者"}, {"artist": "周杰伦", "title": "夜曲"}, {"artist": "周杰伦", "title": "晴天"}, {"artist": "周杰伦", "title": "七里香"}, {"artist": "朴树", "title": "平凡之路"}], "unread": 38, "updated": "2026-10-28T13:49:46+08:00", "weather": "晴 20℃"}
+{
+ "activity": "发呆",
+ "affection": 57,
+ "books": [
+  {
+   "author": "中村恒子",
+   "title": "人间值得"
+  }
+ ],
+ "chatsCount": 404,
+ "daysTogether": 16,
+ "level": "亲密",
+ "mood": "开心",
+ "song": "《平凡之路》 · 朴树",
+ "songs": [
+  {
+   "artist": "周杰伦",
+   "title": "稻香"
+  },
+  {
+   "artist": "陈奕迅",
+   "title": "孤勇者"
+  },
+  {
+   "artist": "周杰伦",
+   "title": "夜曲"
+  },
+  {
+   "artist": "周杰伦",
+   "title": "晴天"
+  },
+  {
+   "artist": "周杰伦",
+   "title": "七里香"
+  },
+  {
+   "artist": "朴树",
+   "title": "平凡之路"
+  }
+ ],
+ "unread": 42,
+ "updated": "2026-10-28T14:19:40+08:00",
+ "weather": "晴 20℃"
+}
