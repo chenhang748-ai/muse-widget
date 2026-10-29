@@ -1,43 +1,43 @@
 {
- "generated_at": "2026-10-30T07:09:05+08:00",
- "crons": [
-  {
-   "name": "proactive-heartbeat",
-   "last_run": "2026-10-30 07:01:22",
-   "ok": true
-  },
-  {
-   "name": "consciousness-feed",
-   "last_run": "2026-10-30 06:59:12",
-   "ok": true
-  },
-  {
-   "name": "state-feed",
-   "last_run": "2026-10-30 06:50:42",
-   "ok": true
-  },
-  {
-   "name": "her-life-tick",
-   "last_run": "2026-10-30 07:02:48",
-   "ok": true
-  },
-  {
-   "name": "her-dream",
-   "last_run": "2026-10-30 07:03:12",
-   "ok": true
-  },
-  {
-   "name": "friend-dropby",
-   "last_run": "2026-10-30 06:38:23",
-   "ok": true
-  },
-  {
-   "name": "health-report",
-   "last_run": "2026-10-30 06:39:11",
-   "ok": true
-  }
- ],
- "data_age_minutes": 20,
- "push_ok": true,
- "note": "全部正常"
+  "generated_at": "2026-10-30T07:38:17+08:00",
+  "crons": [
+    {
+      "name": "proactive-heartbeat",
+      "last_run": "2026-10-30 07:34:29",
+      "ok": true
+    },
+    {
+      "name": "consciousness-feed",
+      "last_run": "2026-10-30 07:34:37",
+      "ok": true
+    },
+    {
+      "name": "state-feed",
+      "last_run": "2026-10-30 07:23:08",
+      "ok": true
+    },
+    {
+      "name": "her-life-tick",
+      "last_run": "2026-10-30 07:32:46",
+      "ok": true
+    },
+    {
+      "name": "her-dream",
+      "last_run": "2026-10-30 07:03:12",
+      "ok": true
+    },
+    {
+      "name": "friend-dropby",
+      "last_run": "2026-10-30 06:38:23",
+      "ok": true
+    },
+    {
+      "name": "health-report",
+      "last_run": "2026-10-30 07:10:50",
+      "ok": false
+    }
+  ],
+  "data_age_minutes": 15,
+  "push_ok": true,
+  "note": "上一轮巡检被调度记为失败，其余任务正常，独白数据新鲜"
 }
