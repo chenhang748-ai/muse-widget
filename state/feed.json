@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T10:20:30+08:00",
+ "updated": "2026-10-29T10:53:02+08:00",
  "mood": "低落",
  "activity": "读书",
  "weather": "薄雾 18℃",
@@ -7,7 +7,7 @@
  "level": "亲密",
  "affection": 57,
  "daysTogether": 17,
- "chatsCount": 453,
+ "chatsCount": 456,
  "books": [
   {
    "author": "中村恒子",
@@ -44,5 +44,5 @@
    "title": "匆匆那年"
   }
  ],
- "unread": 18
+ "unread": 22
 }
