@@ -8,10 +8,10 @@
   }
  ],
  "chatsCount": 525,
- "daysTogether": 17,
+ "daysTogether": 18,
  "level": "亲密",
  "mood": "平静",
- "song": "《匆匆那年》 · 王菲",
+ "song": "《后来》 · 刘若英",
  "songs": [
   {
    "artist": "周杰伦",
@@ -40,9 +40,13 @@
   {
    "artist": "王菲",
    "title": "匆匆那年"
+  },
+  {
+   "artist": "刘若英",
+   "title": "后来"
   }
  ],
- "unread": 98,
- "updated": "2026-10-29T23:50:17+08:00",
+ "unread": 0,
+ "updated": "2026-10-30T00:20:01+08:00",
  "weather": "雾 16℃"
 }
