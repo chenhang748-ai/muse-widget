@@ -1,5 +1,5 @@
 {
- "activity": "听歌",
+ "activity": "休息",
  "affection": 57,
  "books": [
   {
@@ -10,7 +10,7 @@
  "chatsCount": 525,
  "daysTogether": 17,
  "level": "亲密",
- "mood": "开心",
+ "mood": "平静",
  "song": "《匆匆那年》 · 王菲",
  "songs": [
   {
@@ -42,7 +42,7 @@
    "title": "匆匆那年"
   }
  ],
- "unread": 96,
- "updated": "2026-10-29T23:20:00+08:00",
+ "unread": 98,
+ "updated": "2026-10-29T23:50:17+08:00",
  "weather": "雾 16℃"
 }
