@@ -1,5 +1,5 @@
 {
- "activity": "忙",
+ "activity": "听歌",
  "affection": 57,
  "books": [
   {
@@ -7,7 +7,7 @@
    "title": "人间值得"
   }
  ],
- "chatsCount": 510,
+ "chatsCount": 514,
  "daysTogether": 17,
  "level": "亲密",
  "mood": "开心",
@@ -42,7 +42,7 @@
    "title": "匆匆那年"
   }
  ],
- "unread": 79,
- "updated": "2026-10-29T20:20:00+08:00",
+ "unread": 82,
+ "updated": "2026-10-29T20:50:12+08:00",
  "weather": "雾 17℃"
 }
