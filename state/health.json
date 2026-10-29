@@ -1,43 +1,43 @@
 {
-  "generated_at": "2026-10-30T04:08:01+08:00",
   "crons": [
     {
+      "last_run": "2026-10-30 04:31:48",
       "name": "proactive-heartbeat",
-      "last_run": "2026-10-30 04:00:39",
       "ok": true
     },
     {
+      "last_run": "2026-10-30 04:28:52",
       "name": "consciousness-feed",
-      "last_run": "2026-10-30 03:58:34",
       "ok": true
     },
     {
+      "last_run": "2026-10-30 04:22:47",
       "name": "state-feed",
-      "last_run": "2026-10-30 03:48:42",
       "ok": true
     },
     {
+      "last_run": "2026-10-30 04:32:06",
       "name": "her-life-tick",
-      "last_run": "2026-10-30 04:00:36",
       "ok": true
     },
     {
+      "last_run": "2026-10-29 07:00:56",
       "name": "her-dream",
-      "last_run": "2026-10-29 07:00:00",
       "ok": true
     },
     {
+      "last_run": "2026-10-30 03:38:16",
       "name": "friend-dropby",
-      "last_run": "2026-10-30 03:38:07",
       "ok": true
     },
     {
+      "last_run": "2026-10-30 04:08:36",
       "name": "health-report",
-      "last_run": "2026-10-30 03:36:33",
       "ok": true
     }
   ],
-  "data_age_minutes": 17,
-  "push_ok": true,
-  "note": "全部正常"
+  "data_age_minutes": 19,
+  "generated_at": "2026-10-30T04:37:50+08:00",
+  "note": "全部正常",
+  "push_ok": true
 }
