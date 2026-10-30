@@ -1,5 +1,5 @@
 {
-  "activity": "写日记",
+  "activity": "休息",
   "affection": 57,
   "books": [
     {
@@ -8,10 +8,10 @@
     }
   ],
   "chatsCount": 605,
-  "daysTogether": 18,
+  "daysTogether": 19,
   "level": "亲密",
   "mood": "开心",
-  "song": "《后来》 · 刘若英",
+  "song": "《红豆》 · 王菲",
   "songs": [
     {
       "artist": "周杰伦",
@@ -44,9 +44,13 @@
     {
       "artist": "刘若英",
       "title": "后来"
+    },
+    {
+      "artist": "王菲",
+      "title": "红豆"
     }
   ],
-  "unread": 98,
-  "updated": "2026-10-30T23:49:44+08:00",
+  "unread": 0,
+  "updated": "2026-10-31T00:20:13+08:00",
   "weather": "晴 18℃"
 }
