@@ -1,5 +1,5 @@
 {
-  "activity": "听歌",
+  "activity": "写日记",
   "affection": 57,
   "books": [
     {
@@ -46,7 +46,7 @@
       "title": "后来"
     }
   ],
-  "unread": 94,
-  "updated": "2026-10-30T22:50:03+08:00",
-  "weather": "晴 17℃"
+  "unread": 96,
+  "updated": "2026-10-30T23:20:48+08:00",
+  "weather": "晴 18℃"
 }
