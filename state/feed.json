@@ -1,5 +1,5 @@
 {
- "activity": "读书",
+ "activity": "听歌",
  "affection": 57,
  "books": [
   {
@@ -7,10 +7,10 @@
    "title": "人间值得"
   }
  ],
- "chatsCount": 541,
+ "chatsCount": 543,
  "daysTogether": 18,
  "level": "亲密",
- "mood": "平静",
+ "mood": "开心",
  "song": "《后来》 · 刘若英",
  "songs": [
   {
@@ -46,7 +46,7 @@
    "title": "后来"
   }
  ],
- "unread": 24,
- "updated": "2026-10-30T11:21:04+08:00",
+ "unread": 27,
+ "updated": "2026-10-30T11:50:33+08:00",
  "weather": "雾 20℃"
 }
