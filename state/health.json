@@ -1,1 +1,43 @@
-{"crons":[{"last_run":"2026-10-30T14:32:40+08:00","name":"proactive-heartbeat","ok":true},{"last_run":"2026-10-30T14:29:36+08:00","name":"consciousness-feed","ok":true},{"last_run":"2026-10-30T14:21:31+08:00","name":"state-feed","ok":true},{"last_run":"2026-10-30T14:32:08+08:00","name":"her-life-tick","ok":true},{"last_run":"2026-10-30T07:03:12+08:00","name":"her-dream","ok":true},{"last_run":"2026-10-30T13:39:06+08:00","name":"friend-dropby","ok":true},{"last_run":"2026-10-30T14:09:02+08:00","name":"health-report","ok":true}],"data_age_minutes":16,"generated_at":"2026-10-30T14:36:33+08:00","note":"全部正常；推送无连败（~/workspace/state/heartbeat-state.json 仍缺失，沿用 goal-4 实际路径核实）","push_ok":true}
+{
+  "generated_at": "2026-10-30T15:07:41+08:00",
+  "crons": [
+    {
+      "name": "proactive-heartbeat",
+      "last_run": "2026-10-30T15:02:39+08:00",
+      "ok": true
+    },
+    {
+      "name": "consciousness-feed",
+      "last_run": "2026-10-30T14:59:44+08:00",
+      "ok": true
+    },
+    {
+      "name": "state-feed",
+      "last_run": "2026-10-30T14:50:41+08:00",
+      "ok": true
+    },
+    {
+      "name": "her-life-tick",
+      "last_run": "2026-10-30T15:02:02+08:00",
+      "ok": true
+    },
+    {
+      "name": "her-dream",
+      "last_run": "2026-10-30T07:03:12+08:00",
+      "ok": true
+    },
+    {
+      "name": "friend-dropby",
+      "last_run": "2026-10-30T14:39:15+08:00",
+      "ok": true
+    },
+    {
+      "name": "health-report",
+      "last_run": "2026-10-30T14:38:41+08:00",
+      "ok": true
+    }
+  ],
+  "data_age_minutes": 17,
+  "push_ok": true,
+  "note": "全部正常；推送无连败（~/workspace/state/heartbeat-state.json 仍缺失，沿用 goal-4 实际路径与今日 watchdog 核实）"
+}
