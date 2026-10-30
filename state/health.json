@@ -1,1 +1,43 @@
-{"generated_at": "2026-10-30T20:07:13+08:00", "crons": [{"name": "proactive-heartbeat", "last_run": "2026-10-30T20:02:12+08:00", "ok": true}, {"name": "consciousness-feed", "last_run": "2026-10-30T20:00:19+08:00", "ok": true}, {"name": "state-feed", "last_run": "2026-10-30T19:49:51+08:00", "ok": true}, {"name": "her-life-tick", "last_run": "2026-10-30T20:01:28+08:00", "ok": true}, {"name": "her-dream", "last_run": "2026-10-30T07:03:12+08:00", "ok": true}, {"name": "friend-dropby", "last_run": "2026-10-30T19:38:34+08:00", "ok": true}, {"name": "health-report", "last_run": "2026-10-30T19:38:01+08:00", "ok": false}], "data_age_minutes": 17, "push_ok": true, "note": "除上轮健康巡检自报未完成外其余正常，独白数据新鲜"}
+{
+  "generated_at": "2026-10-30T20:37:14+08:00",
+  "crons": [
+    {
+      "name": "proactive-heartbeat",
+      "last_run": "2026-10-30 20:31:58",
+      "ok": true
+    },
+    {
+      "name": "consciousness-feed",
+      "last_run": "2026-10-30 20:29:35",
+      "ok": true
+    },
+    {
+      "name": "state-feed",
+      "last_run": "2026-10-30 20:19:57",
+      "ok": true
+    },
+    {
+      "name": "her-life-tick",
+      "last_run": "2026-10-30 20:31:22",
+      "ok": true
+    },
+    {
+      "name": "her-dream",
+      "last_run": "2026-10-30 07:03:12",
+      "ok": true
+    },
+    {
+      "name": "friend-dropby",
+      "last_run": "2026-10-30 19:38:34",
+      "ok": true
+    },
+    {
+      "name": "health-report",
+      "last_run": "2026-10-30 20:07:38",
+      "ok": false
+    }
+  ],
+  "data_age_minutes": 17,
+  "push_ok": true,
+  "note": "6项正常；上轮巡检因旧状态文件路径缺口自报失败，本轮已补读实际心跳状态文件核验，独白新鲜"
+}
