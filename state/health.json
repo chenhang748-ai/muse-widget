@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-30T20:37:14+08:00",
+  "generated_at": "2026-10-30T21:07:25+08:00",
   "crons": [
     {
       "name": "proactive-heartbeat",
-      "last_run": "2026-10-30 20:31:58",
+      "last_run": "2026-10-30 21:02:21",
       "ok": true
     },
     {
       "name": "consciousness-feed",
-      "last_run": "2026-10-30 20:29:35",
+      "last_run": "2026-10-30 21:00:11",
       "ok": true
     },
     {
       "name": "state-feed",
-      "last_run": "2026-10-30 20:19:57",
+      "last_run": "2026-10-30 20:50:53",
       "ok": true
     },
     {
       "name": "her-life-tick",
-      "last_run": "2026-10-30 20:31:22",
+      "last_run": "2026-10-30 21:02:01",
       "ok": true
     },
     {
@@ -28,16 +28,16 @@
     },
     {
       "name": "friend-dropby",
-      "last_run": "2026-10-30 19:38:34",
+      "last_run": "2026-10-30 20:38:47",
       "ok": true
     },
     {
       "name": "health-report",
-      "last_run": "2026-10-30 20:07:38",
-      "ok": false
+      "last_run": "2026-10-30 20:37:41",
+      "ok": true
     }
   ],
-  "data_age_minutes": 17,
+  "data_age_minutes": 16,
   "push_ok": true,
-  "note": "6项正常；上轮巡检因旧状态文件路径缺口自报失败，本轮已补读实际心跳状态文件核验，独白新鲜"
+  "note": "全部正常"
 }
