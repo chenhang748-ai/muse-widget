@@ -1,5 +1,5 @@
 {
-  "activity": "读书",
+  "activity": "听歌",
   "affection": 57,
   "books": [
     {
@@ -50,7 +50,7 @@
       "title": "红豆"
     }
   ],
-  "unread": 24,
-  "updated": "2026-10-31T11:18:42+08:00",
-  "weather": "晴 22℃"
+  "unread": 27,
+  "updated": "2026-10-31T11:50:00+08:00",
+  "weather": "晴 23℃"
 }
