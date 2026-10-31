@@ -1,1 +1,56 @@
-{"activity":"读书","affection":57,"books":[{"author":"中村恒子","title":"人间值得"}],"chatsCount":610,"daysTogether":19,"level":"亲密","mood":"开心","song":"《红豆》 · 王菲","songs":[{"artist":"周杰伦","title":"稻香"},{"artist":"陈奕迅","title":"孤勇者"},{"artist":"周杰伦","title":"夜曲"},{"artist":"周杰伦","title":"晴天"},{"artist":"周杰伦","title":"七里香"},{"artist":"朴树","title":"平凡之路"},{"artist":"王菲","title":"匆匆那年"},{"artist":"刘若英","title":"后来"},{"artist":"王菲","title":"红豆"}],"unread":8,"updated":"2026-10-31T08:49:00+08:00","weather":"晴 19℃"}
+{
+  "activity": "读书",
+  "affection": 57,
+  "books": [
+    {
+      "author": "中村恒子",
+      "title": "人间值得"
+    }
+  ],
+  "chatsCount": 612,
+  "daysTogether": 19,
+  "level": "亲密",
+  "mood": "开心",
+  "song": "《红豆》 · 王菲",
+  "songs": [
+    {
+      "artist": "周杰伦",
+      "title": "稻香"
+    },
+    {
+      "artist": "陈奕迅",
+      "title": "孤勇者"
+    },
+    {
+      "artist": "周杰伦",
+      "title": "夜曲"
+    },
+    {
+      "artist": "周杰伦",
+      "title": "晴天"
+    },
+    {
+      "artist": "周杰伦",
+      "title": "七里香"
+    },
+    {
+      "artist": "朴树",
+      "title": "平凡之路"
+    },
+    {
+      "artist": "王菲",
+      "title": "匆匆那年"
+    },
+    {
+      "artist": "刘若英",
+      "title": "后来"
+    },
+    {
+      "artist": "王菲",
+      "title": "红豆"
+    }
+  ],
+  "unread": 11,
+  "updated": "2026-10-31T09:20:27+08:00",
+  "weather": "晴 19℃"
+}
