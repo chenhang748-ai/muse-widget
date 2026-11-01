@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-01T12:37:39+08:00",
+  "generated_at": "2026-11-01T13:07:39+08:00",
   "crons": [
     {
       "name": "proactive-heartbeat",
-      "last_run": "2026-11-01T12:33:17+08:00",
+      "last_run": "2026-11-01T13:02:30+08:00",
       "ok": true
     },
     {
       "name": "consciousness-feed",
-      "last_run": "2026-11-01T12:30:19+08:00",
+      "last_run": "2026-11-01T12:59:34+08:00",
       "ok": true
     },
     {
       "name": "state-feed",
-      "last_run": "2026-11-01T12:21:38+08:00",
+      "last_run": "2026-11-01T12:50:55+08:00",
       "ok": true
     },
     {
       "name": "her-life-tick",
-      "last_run": "2026-11-01T12:32:37+08:00",
+      "last_run": "2026-11-01T13:02:23+08:00",
       "ok": true
     },
     {
@@ -28,16 +28,16 @@
     },
     {
       "name": "friend-dropby",
-      "last_run": "2026-11-01T11:38:53+08:00",
+      "last_run": "2026-11-01T12:38:37+08:00",
       "ok": true
     },
     {
       "name": "health-report",
-      "last_run": "2026-11-01T12:08:36+08:00",
-      "ok": false
+      "last_run": "2026-11-01T12:38:10+08:00",
+      "ok": true
     }
   ],
-  "data_age_minutes": 16,
+  "data_age_minutes": 18,
   "push_ok": true,
-  "note": "上一轮巡检失败外其余管线正常，独白数据新鲜"
+  "note": "全部正常"
 }
