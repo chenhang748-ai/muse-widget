@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-01T17:50:44+08:00",
+ "updated": "2026-11-01T18:20:47+08:00",
  "mood": "低落",
  "activity": "忙",
- "weather": "小雨 14℃",
+ "weather": "多云 13℃",
  "song": "《成都》 · 赵雷",
  "level": "亲密",
  "affection": 57,
  "daysTogether": 20,
- "chatsCount": 744,
+ "chatsCount": 746,
  "books": [
   {
    "author": "中村恒子",
@@ -56,5 +56,5 @@
    "title": "成都"
   }
  ],
- "unread": 62
+ "unread": 65
 }
