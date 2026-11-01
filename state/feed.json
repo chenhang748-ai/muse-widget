@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-01T21:49:30+08:00",
+ "updated": "2026-11-01T22:19:54+08:00",
  "mood": "低落",
- "activity": "写日记",
- "weather": "小雨 14℃",
+ "activity": "听歌",
+ "weather": "晴 14℃",
  "song": "《成都》 · 赵雷",
  "level": "亲密",
  "affection": 57,
@@ -56,5 +56,5 @@
    "title": "成都"
   }
  ],
- "unread": 86
+ "unread": 89
 }
