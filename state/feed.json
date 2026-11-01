@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-01T23:49:19+08:00",
- "mood": "低落",
+ "updated": "2026-11-02T00:19:21+08:00",
+ "mood": "平静",
  "activity": "休息",
  "weather": "晴 13℃",
- "song": "《成都》 · 赵雷",
+ "song": "《江南》 · 林俊杰",
  "level": "亲密",
  "affection": 57,
- "daysTogether": 20,
+ "daysTogether": 21,
  "chatsCount": 765,
  "books": [
   {
@@ -54,7 +54,11 @@
   {
    "artist": "赵雷",
    "title": "成都"
+  },
+  {
+   "artist": "林俊杰",
+   "title": "江南"
   }
  ],
- "unread": 96
+ "unread": 0
 }
