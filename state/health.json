@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-01T08:37:00+08:00",
+  "generated_at": "2026-11-01T09:08:00+08:00",
   "crons": [
-    {"name": "proactive-heartbeat", "last_run": "2026-11-01T08:20:39+08:00", "ok": true},
-    {"name": "consciousness-feed", "last_run": "2026-11-01T08:28:34+08:00", "ok": true},
-    {"name": "state-feed", "last_run": "2026-11-01T08:18:42+08:00", "ok": true},
-    {"name": "her-life-tick", "last_run": "2026-11-01T08:30:36+08:00", "ok": true},
+    {"name": "proactive-heartbeat", "last_run": "2026-11-01T09:00:39+08:00", "ok": true},
+    {"name": "consciousness-feed", "last_run": "2026-11-01T08:58:34+08:00", "ok": true},
+    {"name": "state-feed", "last_run": "2026-11-01T08:48:42+08:00", "ok": true},
+    {"name": "her-life-tick", "last_run": "2026-11-01T09:00:36+08:00", "ok": true},
     {"name": "her-dream", "last_run": "2026-11-01T07:00:00+08:00", "ok": true},
-    {"name": "friend-dropby", "last_run": "2026-11-01T07:38:07+08:00", "ok": true},
-    {"name": "health-report", "last_run": "2026-11-01T08:06:33+08:00", "ok": true}
+    {"name": "friend-dropby", "last_run": "2026-11-01T08:38:07+08:00", "ok": true},
+    {"name": "health-report", "last_run": "2026-11-01T08:36:33+08:00", "ok": true}
   ],
-  "data_age_minutes": 13,
+  "data_age_minutes": 17,
   "push_ok": true,
-  "note": "全部正常，心跳 08:30 轮次仍在跑、前一轮已成功"
+  "note": "全部正常"
 }
