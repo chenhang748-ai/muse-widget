@@ -1,5 +1,5 @@
 {
- "activity": "听歌",
+ "activity": "发呆",
  "affection": 57,
  "books": [
   {
@@ -7,7 +7,7 @@
    "title": "人间值得"
   }
  ],
- "chatsCount": 793,
+ "chatsCount": 799,
  "daysTogether": 21,
  "level": "亲密",
  "mood": "开心",
@@ -58,7 +58,7 @@
    "title": "江南"
   }
  ],
- "unread": 36,
- "updated": "2026-11-02T13:21:40+08:00",
- "weather": "晴 21℃"
+ "unread": 39,
+ "updated": "2026-11-02T13:51:35+08:00",
+ "weather": "晴 20℃"
 }
