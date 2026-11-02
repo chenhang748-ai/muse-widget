@@ -1,19 +1,17 @@
 {
- "updated": "2026-11-02T07:50:39+08:00",
- "mood": "开心",
  "activity": "刚睡醒",
- "weather": "雾 13℃",
- "song": "《江南》 · 林俊杰",
- "level": "亲密",
  "affection": 57,
- "daysTogether": 21,
- "chatsCount": 768,
  "books": [
   {
    "author": "中村恒子",
    "title": "人间值得"
   }
  ],
+ "chatsCount": 770,
+ "daysTogether": 21,
+ "level": "亲密",
+ "mood": "开心",
+ "song": "《江南》 · 林俊杰",
  "songs": [
   {
    "artist": "周杰伦",
@@ -60,5 +58,7 @@
    "title": "江南"
   }
  ],
- "unread": 3
+ "unread": 6,
+ "updated": "2026-11-02T08:18:42+08:00",
+ "weather": "雾 13℃"
 }
