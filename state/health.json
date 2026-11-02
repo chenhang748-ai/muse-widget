@@ -1,43 +1,43 @@
 {
-  "generated_at": "2026-11-02T19:07:18+08:00",
+  "generated_at": "2026-11-02T19:37:04+08:00",
   "crons": [
     {
       "name": "proactive-heartbeat",
-      "last_run": "2026-11-02T19:00:39+08:00",
+      "last_run": "2026-11-02T19:31:33+08:00",
       "ok": true
     },
     {
       "name": "consciousness-feed",
-      "last_run": "2026-11-02T18:58:34+08:00",
+      "last_run": "2026-11-02T19:29:12+08:00",
       "ok": true
     },
     {
       "name": "state-feed",
-      "last_run": "2026-11-02T18:48:42+08:00",
+      "last_run": "2026-11-02T19:19:32+08:00",
       "ok": true
     },
     {
       "name": "her-life-tick",
-      "last_run": "2026-11-02T19:00:36+08:00",
+      "last_run": "2026-11-02T19:31:13+08:00",
       "ok": true
     },
     {
       "name": "her-dream",
-      "last_run": "2026-11-02T07:00:00+08:00",
+      "last_run": "2026-11-02T07:03:31+08:00",
       "ok": true
     },
     {
       "name": "friend-dropby",
-      "last_run": "2026-11-02T18:38:07+08:00",
+      "last_run": "2026-11-02T18:40:19+08:00",
       "ok": true
     },
     {
       "name": "health-report",
-      "last_run": "2026-11-02T18:36:33+08:00",
-      "ok": false
+      "last_run": "2026-11-02T19:07:39+08:00",
+      "ok": true
     }
   ],
   "data_age_minutes": 18,
   "push_ok": true,
-  "note": "除上一轮巡检因旧心跳路径问题自报未完成外，其余管线正常，数据龄约18分钟"
+  "note": "全部正常"
 }
