@@ -1,5 +1,5 @@
 {
- "activity": "听歌",
+ "activity": "写日记",
  "affection": 57,
  "books": [
   {
@@ -58,7 +58,7 @@
    "title": "江南"
   }
  ],
- "unread": 84,
- "updated": "2026-11-02T21:19:47+08:00",
+ "unread": 87,
+ "updated": "2026-11-02T21:50:00+08:00",
  "weather": "阴 20℃"
 }
