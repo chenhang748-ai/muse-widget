@@ -1,1 +1,43 @@
-{"crons":[{"last_run":"2026-11-02 11:32:53","name":"proactive-heartbeat","ok":true},{"last_run":"2026-11-02 11:30:42","name":"consciousness-feed","ok":true},{"last_run":"2026-11-02 11:25:01","name":"state-feed","ok":true},{"last_run":"2026-11-02 11:32:23","name":"her-life-tick","ok":true},{"last_run":"2026-11-02 07:03:31","name":"her-dream","ok":true},{"last_run":"2026-11-02 10:39:54","name":"friend-dropby","ok":true},{"last_run":"2026-11-02 11:08:16","name":"health-report","ok":true}],"data_age_minutes":13,"generated_at":"2026-11-02T11:37:11+08:00","note":"全部正常：7 项任务最近一次均成功，独白数据约 13 分钟前更新，推送无连败（heartbeat-state.json 仍缺失，但 COMPANION_LOG 09:00 自检记 bark_fail_streak=0、今日 07:03 Bark 已发送，故 push_ok 仍为 true）","push_ok":true}
+{
+  "generated_at": "2026-11-02T12:07:16+08:00",
+  "crons": [
+    {
+      "name": "proactive-heartbeat",
+      "last_run": "2026-11-02 12:02:24",
+      "ok": true
+    },
+    {
+      "name": "consciousness-feed",
+      "last_run": "2026-11-02 12:01:06",
+      "ok": true
+    },
+    {
+      "name": "state-feed",
+      "last_run": "2026-11-02 11:51:25",
+      "ok": true
+    },
+    {
+      "name": "her-life-tick",
+      "last_run": "2026-11-02 12:02:11",
+      "ok": true
+    },
+    {
+      "name": "her-dream",
+      "last_run": "2026-11-02 07:03:31",
+      "ok": true
+    },
+    {
+      "name": "friend-dropby",
+      "last_run": "2026-11-02 11:39:25",
+      "ok": true
+    },
+    {
+      "name": "health-report",
+      "last_run": "2026-11-02 11:38:03",
+      "ok": true
+    }
+  ],
+  "data_age_minutes": 16,
+  "push_ok": true,
+  "note": "全部正常：7 项任务最近一次均成功，独白数据约 16 分钟前更新，推送无连败"
+}
