@@ -1,5 +1,5 @@
 {
- "activity": "写日记",
+ "activity": "休息",
  "affection": 57,
  "books": [
   {
@@ -62,7 +62,7 @@
    "title": "小幸运"
   }
  ],
- "unread": 95,
- "updated": "2026-11-03T23:19:41+08:00",
+ "unread": 96,
+ "updated": "2026-11-03T23:49:31+08:00",
  "weather": "小雨 14℃"
 }
