@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-11-05T02:37:27+08:00",
+ "generated_at": "2026-11-05T03:08:05+08:00",
  "crons": [
   {
    "name": "proactive-heartbeat",
-   "last_run": "2026-11-05T02:30:57+08:00",
+   "last_run": "2026-11-05T03:01:07+08:00",
    "ok": true
   },
   {
    "name": "consciousness-feed",
-   "last_run": "2026-11-05T02:28:52+08:00",
+   "last_run": "2026-11-05T02:59:07+08:00",
    "ok": true
   },
   {
    "name": "state-feed",
-   "last_run": "2026-11-05T02:20:19+08:00",
+   "last_run": "2026-11-05T02:52:21+08:00",
    "ok": true
   },
   {
    "name": "her-life-tick",
-   "last_run": "2026-11-05T02:31:44+08:00",
+   "last_run": "2026-11-05T03:01:43+08:00",
    "ok": true
   },
   {
@@ -28,16 +28,16 @@
   },
   {
    "name": "friend-dropby",
-   "last_run": "2026-11-05T01:38:18+08:00",
+   "last_run": "2026-11-05T02:38:17+08:00",
    "ok": true
   },
   {
    "name": "health-report",
-   "last_run": "2026-11-05T02:07:53+08:00",
-   "ok": true
+   "last_run": "2026-11-05T02:38:05+08:00",
+   "ok": false
   }
  ],
- "data_age_minutes": 17,
+ "data_age_minutes": 16,
  "push_ok": true,
- "note": "全部正常"
+ "note": "其余管线正常；上轮巡检（02:38）被标记未完成，但其 health.json 已更新，本轮正常补写"
 }
