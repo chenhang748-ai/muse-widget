@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-04T08:37:25+08:00",
+  "generated_at": "2026-11-04T09:07:05+08:00",
   "crons": [
     {
       "name": "proactive-heartbeat",
-      "last_run": "2026-11-04 08:33:31",
+      "last_run": "2026-11-04 09:02:43",
       "ok": true
     },
     {
       "name": "consciousness-feed",
-      "last_run": "2026-11-04 08:29:24",
+      "last_run": "2026-11-04 08:59:59",
       "ok": true
     },
     {
       "name": "state-feed",
-      "last_run": "2026-11-04 08:20:25",
+      "last_run": "2026-11-04 08:51:25",
       "ok": true
     },
     {
       "name": "her-life-tick",
-      "last_run": "2026-11-04 08:31:37",
+      "last_run": "2026-11-04 09:01:55",
       "ok": true
     },
     {
@@ -28,16 +28,16 @@
     },
     {
       "name": "friend-dropby",
-      "last_run": "2026-11-04 07:38:22",
+      "last_run": "2026-11-04 08:38:16",
       "ok": true
     },
     {
       "name": "health-report",
-      "last_run": "2026-11-04 08:09:27",
+      "last_run": "2026-11-04 08:37:45",
       "ok": true
     }
   ],
-  "data_age_minutes": 18,
+  "data_age_minutes": 16,
   "push_ok": true,
   "note": "全部正常"
 }
