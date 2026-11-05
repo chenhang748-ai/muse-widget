@@ -1,5 +1,5 @@
 {
- "activity": "发呆",
+ "activity": "休息",
  "affection": 57,
  "books": [
   {
@@ -7,10 +7,10 @@
    "title": "人间值得"
   }
  ],
- "chatsCount": 1039,
+ "chatsCount": 1051,
  "daysTogether": 24,
  "level": "亲密",
- "mood": "开心",
+ "mood": "平静",
  "song": "《起风了》 · 吴青峰",
  "songs": [
   {
@@ -70,7 +70,7 @@
    "title": "起风了"
   }
  ],
- "unread": 40,
- "updated": "2026-11-05T13:49:26+08:00",
+ "unread": 43,
+ "updated": "2026-11-05T14:19:41+08:00",
  "weather": "晴 19℃"
 }
