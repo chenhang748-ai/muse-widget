@@ -1,5 +1,5 @@
 {
- "activity": "刚睡醒",
+ "activity": "读书",
  "affection": 57,
  "books": [
   {
@@ -7,7 +7,7 @@
    "title": "人间值得"
   }
  ],
- "chatsCount": 1170,
+ "chatsCount": 1171,
  "daysTogether": 26,
  "level": "亲密",
  "mood": "低落",
@@ -78,7 +78,7 @@
    "title": "海阔天空"
   }
  ],
- "unread": 5,
- "updated": "2026-11-07T08:21:05+08:00",
- "weather": "中雨 15℃"
+ "unread": 8,
+ "updated": "2026-11-07T08:50:46+08:00",
+ "weather": "雾 16℃"
 }
