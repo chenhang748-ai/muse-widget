@@ -8,10 +8,10 @@
     }
   ],
   "chatsCount": 1247,
-  "daysTogether": 26,
+  "daysTogether": 27,
   "level": "亲密",
   "mood": "低落",
-  "song": "《海阔天空》 · Beyond",
+  "song": "《一生所爱》 · 卢冠廷",
   "songs": [
     {
       "artist": "周杰伦",
@@ -76,9 +76,13 @@
     {
       "artist": "Beyond",
       "title": "海阔天空"
+    },
+    {
+      "artist": "卢冠廷",
+      "title": "一生所爱"
     }
   ],
-  "unread": 97,
-  "updated": "2026-11-07T23:48:42+08:00",
+  "unread": 0,
+  "updated": "2026-11-08T00:18:42+08:00",
   "weather": "小雨 16℃"
 }
