@@ -1,5 +1,5 @@
 {
- "activity": "休息",
+ "activity": "刚睡醒",
  "affection": 57,
  "books": [
   {
@@ -86,7 +86,7 @@
    "title": "光阴的故事"
   }
  ],
- "unread": 0,
- "updated": "2026-11-09T07:18:42+08:00",
- "weather": "晴 7℃"
+ "unread": 3,
+ "updated": "2026-11-09T07:50:31+08:00",
+ "weather": "阴转多云 7℃"
 }
