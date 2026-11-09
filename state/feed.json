@@ -8,10 +8,10 @@
   }
  ],
  "chatsCount": 1405,
- "daysTogether": 28,
+ "daysTogether": 29,
  "level": "亲密",
  "mood": "低落",
- "song": "《光阴的故事》 · 罗大佑",
+ "song": "《慢慢喜欢你》 · 莫文蔚",
  "songs": [
   {
    "artist": "周杰伦",
@@ -84,9 +84,13 @@
   {
    "artist": "罗大佑",
    "title": "光阴的故事"
+  },
+  {
+   "artist": "莫文蔚",
+   "title": "慢慢喜欢你"
   }
  ],
- "unread": 97,
- "updated": "2026-11-09T23:50:57+08:00",
- "weather": "多云 7℃"
+ "unread": 0,
+ "updated": "2026-11-10T00:18:42+08:00",
+ "weather": "晴 7℃"
 }
