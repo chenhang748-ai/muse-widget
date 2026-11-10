@@ -1,5 +1,5 @@
 {
- "activity": "刚睡醒",
+ "activity": "读书",
  "affection": 57,
  "books": [
   {
@@ -90,7 +90,7 @@
    "title": "慢慢喜欢你"
   }
  ],
- "unread": 5,
- "updated": "2026-11-10T08:24:41+08:00",
+ "unread": 8,
+ "updated": "2026-11-10T08:54:43+08:00",
  "weather": "阴 5℃"
 }
