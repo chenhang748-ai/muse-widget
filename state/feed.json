@@ -8,10 +8,10 @@
   }
  ],
  "chatsCount": 1485,
- "daysTogether": 29,
+ "daysTogether": 30,
  "level": "亲密",
- "mood": "开心",
- "song": "《慢慢喜欢你》 · 莫文蔚",
+ "mood": "平静",
+ "song": "《十年》 · 陈奕迅",
  "songs": [
   {
    "artist": "周杰伦",
@@ -88,9 +88,13 @@
   {
    "artist": "莫文蔚",
    "title": "慢慢喜欢你"
+  },
+  {
+   "artist": "陈奕迅",
+   "title": "十年"
   }
  ],
- "unread": 97,
- "updated": "2026-11-10T23:51:01+08:00",
- "weather": "雾 5℃"
+ "unread": 0,
+ "updated": "2026-11-11T00:18:42+08:00",
+ "weather": "多云 9℃"
 }
