@@ -1,41 +1,13 @@
 {
-  "generated_at": "2026-11-11T08:06:33+08:00",
+  "generated_at": "2026-11-11T08:36:33+08:00",
   "crons": [
-    {
-      "name": "proactive-heartbeat",
-      "last_run": "2026-11-11T08:04:32+08:00",
-      "ok": true
-    },
-    {
-      "name": "consciousness-feed",
-      "last_run": "2026-11-11T08:00:39+08:00",
-      "ok": true
-    },
-    {
-      "name": "state-feed",
-      "last_run": "2026-11-11T07:50:15+08:00",
-      "ok": true
-    },
-    {
-      "name": "her-life-tick",
-      "last_run": "2026-11-11T08:02:08+08:00",
-      "ok": true
-    },
-    {
-      "name": "her-dream",
-      "last_run": "2026-11-11T07:01:36+08:00",
-      "ok": true
-    },
-    {
-      "name": "friend-dropby",
-      "last_run": "2026-11-11T07:38:28+08:00",
-      "ok": true
-    },
-    {
-      "name": "health-report",
-      "last_run": "2026-11-11T07:37:53+08:00",
-      "ok": true
-    }
+    {"name": "proactive-heartbeat", "last_run": "2026-11-11T08:30:39+08:00", "ok": true},
+    {"name": "consciousness-feed", "last_run": "2026-11-11T08:28:34+08:00", "ok": true},
+    {"name": "state-feed", "last_run": "2026-11-11T08:18:42+08:00", "ok": true},
+    {"name": "her-life-tick", "last_run": "2026-11-11T08:30:36+08:00", "ok": true},
+    {"name": "her-dream", "last_run": "2026-11-11T07:00:00+08:00", "ok": true},
+    {"name": "friend-dropby", "last_run": "2026-11-11T07:38:07+08:00", "ok": true},
+    {"name": "health-report", "last_run": "2026-11-11T08:06:33+08:00", "ok": true}
   ],
   "data_age_minutes": 18,
   "push_ok": true,
